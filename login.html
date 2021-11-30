@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Summative Assessment 3
+        </title>
+        <style>
+            *{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            background-color: rgb(124, 124, 124);
+            height: 100px;
+        }
+        .body{
+            background-color: rgb(94, 93, 93);
+        }
+        .row{
+            height: 720px;
+            width: 1280px;
+            background-color: rgb(36, 36, 36);
+        }
+        </style>
+        <script type="text/javascript">
+            function cancel(){
+                window.location="index.html";
+            }
+        </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body class = "body">
+        <div class= "header">
+            <center>
+                <br>
+                <h1 style="color: white;">Learn 2 Code</h1>
+            </center>
+        </div>
+        <center>
+            <br>
+            <div class= "row">
+                <div class= "col-sm-6 col-md-9 col-lg-12 col-5">
+                    <h1 style="color: white;">Sign Up and Subscribe</h1>
+                    <div class= "row-sm-1 row-md-1 row-lg-1 row-1"></div>
+                    <form>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            First Name: <input type="text" required>
+                        </li>
+                        <br>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            Last Name: <input type="text" required>
+                        </li>
+                        <br>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            Email: <input type="email" required>
+                        </li>
+                        <br>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            Password <input type="password" required>
+                        </li>
+                        <br>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            Payment Method:<br> <input type="radio" required> Paypal<br> <input type="radio" required> Credit Card
+                        </li>
+                        <br><br><br><br><br><br><br><br><br><br>
+                        <li style="list-style-type: none; color: white; text-align: left; font-size: 25px;">
+                            <button type="button" class="btn btn-dark">Sign up/Login</button>
+                            <button type="button" class="btn btn-dark" onclick="cancel();">Cancel Subscription</button>
+                        </li>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
